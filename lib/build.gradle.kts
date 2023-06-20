@@ -135,6 +135,6 @@ fun artifactVersionSuffix(): String {
 }
 
 fun isReleaseBranch(): Boolean {
-    val branch = System.getenv("GITHUB_HEAD_REF")
+    val branch = System.getenv("GITHUB_REF_NAME")
     return branch != null && (branch == "main")
 }
