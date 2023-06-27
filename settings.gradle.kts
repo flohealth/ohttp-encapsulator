@@ -19,3 +19,4 @@ dependencyResolutionManagement {
 rootProject.name = "ok-ohttp-encapsulator"
 
 include(":lib")
+project(":lib").name = "ok-ohttp-encapsulator"
