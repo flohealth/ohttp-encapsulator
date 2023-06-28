@@ -1,13 +1,24 @@
 # Oblivious HTTP Encapsulator
 
-The library provides a simple Kotlin API for Android apps to encapsulate and decapsulate [Oblivious HTTP](https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp-02) requests to the [Privacy Relay](https://github.com/cloudflare/privacy-gateway-relay).
-The library represents an Android JNI wrapper for [Cloudflare Privacy Gateway Client Library](https://github.com/cloudflare/privacy-gateway-client-library) binaries.
+The library provides a simple Kotlin API for Android apps to encapsulate and
+decapsulate [Oblivious HTTP](https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp-02) requests to
+the [Privacy Relay](https://github.com/cloudflare/privacy-gateway-relay).
+The library represents an Android JNI wrapper
+for [Cloudflare Privacy Gateway Client Library](https://github.com/cloudflare/privacy-gateway-client-library) binaries.
 
 ## Download
 
-You can download artifacts from [GitHub Releases](https://github.com/flohealth/ok-ohttp-encapsulator/releases). <br />
+#### Declare Gradle dependencies
 
-Maven artifacts are coming soon.
+```kotlin
+dependencies {
+    implementation("com.github.flohealth:ohttp-encapsulator:0.1.0")
+}
+```
+
+#### Download artifacts
+
+You can download artifacts from [GitHub Releases](https://github.com/flohealth/ok-ohttp-encapsulator/releases). <br />
 
 ## Usage
 
