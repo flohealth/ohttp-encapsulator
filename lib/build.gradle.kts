@@ -10,7 +10,7 @@ plugins {
 
 val javaVersion = JavaVersion.VERSION_1_8
 val buildType = "release"
-val libVersion = "0.0.4"
+val libVersion = "0.1.0"
 val jniVersionTag = "v0.0.4"
 
 android {
